@@ -43,6 +43,8 @@ jobs:
         plugins: |
           analysis-kuromoji
     - name: Run tests
+      env:
+        RAILS_ENV: test
       run: |
         sudo apt-get -yqq install libsqlite3-dev
         bundle install --jobs 4 --retry 3
