@@ -53,3 +53,7 @@ jobs:
         bin/yarn install
         bin/rails test
         bin/rails test:system
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v1.1.2
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
