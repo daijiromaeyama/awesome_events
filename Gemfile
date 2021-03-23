@@ -33,6 +33,9 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
   gem 'pry-rails'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
 end
 
 group :test do
