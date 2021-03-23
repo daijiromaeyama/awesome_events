@@ -44,8 +44,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
   gem 'simplecov', require: false
-  gem 'coveralls', require: false
-  gem 'coveralls_reborn', '~> 0.21.0', require: false
+  gem 'simplecov-lcov', require: false
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
