@@ -4,3 +4,6 @@
 
 ## Memo
 - Kaminari does not support ruby 3.0.0.
+
+## Reference
+- https://github.com/coverallsapp/github-action/issues/29
